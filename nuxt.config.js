@@ -17,22 +17,18 @@ export default {
         content: process.env.npm_package_description || ''
       },
       {
-        hid: 'og:title',
         name: 'og:title',
         content: 'WillWeb LLC - Technical Solutions Delivered'
       },
       {
-        hid: 'og:type',
         name: 'og:type',
         content: 'company'
       },
       {
-        hid: 'og:description',
         name: 'og:description',
         content: process.env.npm_package_description || ''
       },
       {
-        hid: 'og:image',
         name: 'og:description',
         content: '/icon.png'
       }
