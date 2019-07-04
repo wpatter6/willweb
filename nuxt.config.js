@@ -30,6 +30,11 @@ export default {
         hid: 'og:description',
         name: 'og:description',
         content: process.env.npm_package_description || ''
+      },
+      {
+        hid: 'og:image',
+        name: 'og:description',
+        content: '/icon.png'
       }
     ],
     link: [
