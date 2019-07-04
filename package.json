@@ -13,6 +13,7 @@
     "heroku-logs": "heroku logs -a willweb-com --tail"
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.3.0",
     "@nuxtjs/vuetify": "0.5.5",
     "nuxt": "^2.0.0"
   },

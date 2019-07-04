@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+// require('dotenv').config()
 
 export default {
   mode: 'universal',
@@ -34,7 +35,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: '/icon.png'
+        content: 'https://willweb-com.herokuapp.com/logo.png'
       }
     ],
     link: [
@@ -61,7 +62,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/vuetify'],
+  modules: ['@nuxtjs/dotenv', '@nuxtjs/vuetify'],
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
