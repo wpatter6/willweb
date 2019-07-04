@@ -22,6 +22,11 @@
 import Logo from '~/components/Logo.vue'
 
 export default {
+  head() {
+    return {
+      meta: []
+    }
+  },
   components: {
     Logo
   }

@@ -9,7 +9,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "heroku-logs": "heroku logs -a willweb-com --tail"
   },
   "dependencies": {
     "@nuxtjs/vuetify": "0.5.5",
