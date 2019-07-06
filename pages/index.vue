@@ -7,7 +7,7 @@
       <v-card>
         <v-card-title class="headline">Modern Web and Mobile Application Development</v-card-title>
         <v-card-text>
-          <p>WillWeb is a small web and app development shop... etc etc etc</p>
+          <p>WillWeb is a small modern web and app development shop.</p>
         </v-card-text>
         <v-card-actions>
           <v-spacer />
